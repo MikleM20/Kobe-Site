@@ -1,0 +1,40 @@
+body{
+    background-color: #efaf2b;
+    padding: 0px;   //To remove space
+    margin: 0px;    //above top part
+}
+#header{
+    background-color: #efaf2b;
+    height: 50px;
+    color: white;
+    margin: -10px -10px;
+    padding: 5px;
+}
+.container{
+    width: 8000px;
+}
+#nav{
+    list-style-type: none;
+	list-style-position: left;;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    display: inline-flex;
+}
+
+#nav.visited{
+    color:white;
+}
+
+#lakers{
+    float: left;
+    margin-right: 20px;
+}
+span{
+}
+
+p{
+    font-size: 20px;
+}
