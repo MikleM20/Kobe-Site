@@ -1,31 +1,43 @@
 body{
     background-color: #efaf2b;
-    padding: 0px;   //To remove space
-    margin: 0px;    //above top part
+    /* Remove Gap Above Heaader    */
+    padding: 0;
+    margin: 0;
 }
 #header{
-    background-color: #efaf2b;
-    height: 50px;
-    color: white;
-    margin: -10px -10px;
-    padding: 5px;
+    background-color: #4c1569;
+    color: #fff;
+    padding: 20px 0;
 }
 .container{
-    width: 8000px;
+    margin: 0 auto;
+    width: 1000px;
 }
 #nav{
     list-style-type: none;
-	list-style-position: left;;
-    margin: 0px;
+	margin: 0px;
     padding: 0px;
-    color: white;
-    position: fixed;
-    width: 100%;
-    display: inline-flex;
+    float: right;
 }
 
-#nav.visited{
-    color:white;
+#nav li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav li a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+
+#nav li a:visited{
+    text-decoration: none;
+    color: #fff;
 }
 
 #lakers{
