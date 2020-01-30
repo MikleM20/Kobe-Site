@@ -1,7 +1,7 @@
 body{
     background-color: #efaf2b;
     /*background-color: red;*/
-    /* Remove Gap Above Heaader    */
+    /* Remove Gap Above Heaader*/
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,6 +13,7 @@ body{
     padding: 20px 0;
     border-bottom:3px solid white;
     font-family: initial;
+    position: relative;
 }
 .container{
     margin: 0 auto;
@@ -40,7 +41,7 @@ body{
     color: #fff;
     font-size: 25px;
     position: relative;
-    top: 5px;
+    top:5px;
 
 }
 
@@ -56,8 +57,26 @@ body{
 #bio{
     margin-top: 20px;
 }
-#who{
-    margin: 5px 0;
+
+#early{
+    margin-top: 50px;
+}
+
+#death{
+    margin-top: 50px;
+}
+
+#early a:link, a:hover{
+    color: #fff;
+}
+
+
+#early a:link, a:visited{
+    color: #000;
+}
+
+h1{
+    margin: 10px 0;
     text-decoration: underline;
 }
 
@@ -75,8 +94,24 @@ Picture Styling
     width: 250px;
     padding: 0;
     margin-right:20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
+
+#youngKobe{
+    float: right;
+    width: 250px;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#crash{
+    margin: 25px 0;
+    margin-left: 50px;
+    width: 800px;
+    padding: 0;
+}
+
 
 div{
     font-size: 20px;
