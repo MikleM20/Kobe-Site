@@ -1,18 +1,28 @@
 body{
     background-color: #efaf2b;
+    /*background-color: red;*/
     /* Remove Gap Above Heaader    */
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #header{
     background-color: #4c1569;
+    /*background-color: black;*/
     color: #fff;
     padding: 20px 0;
+    border-bottom:3px solid white;
+    font-family: initial;
 }
 .container{
     margin: 0 auto;
-    width: 1000px;
+    width: 900px;
 }
+
+#title{
+    font-size: 30px;
+}
+
 #nav{
     list-style-type: none;
 	margin: 0px;
@@ -28,6 +38,10 @@ body{
 #nav li a{
     text-decoration: none;
     color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+
 }
 
 #nav li a:hover{
@@ -37,16 +51,33 @@ body{
 
 #nav li a:visited{
     text-decoration: none;
-    color: #fff;
 }
 
+#bio{
+    margin-top: 20px;
+}
+#who{
+    margin: 5px 0;
+    text-decoration: underline;
+}
+
+/*
+Picture Styling
+*/
 #lakers{
     float: left;
-    margin-right: 20px;
-}
-span{
+    margin-right: 10px;
+    padding: -10px 0;
 }
 
-p{
+#profile{
+    float: left;
+    width: 250px;
+    padding: 0;
+    margin-right:20px;
+    margin-bottom: 10px;
+}
+
+div{
     font-size: 20px;
 }
