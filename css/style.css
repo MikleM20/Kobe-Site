@@ -6,7 +6,7 @@ body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#header{
+.header{
     background-color: #4c1569;
     /*background-color: black;*/
     color: #fff;
@@ -20,35 +20,35 @@ body{
     width: 900px;
 }
 
-#title{
+.title{
     font-size: 30px;
 }
 
-#nav{
+.nav{
     list-style-type: none;
 	margin: 0px;
     padding: 0px;
     float: right;
 }
 
-#nav li{
+.nav li{
     display: inline-block;
     margin-left: 15px;
 }
 
-#nav li a{
+.nav li a{
     text-decoration: none;
     color: #fff;
     font-size: 25px;
     position: relative;
 }
 
-#nav li a:hover{
+.nav li a:hover{
     text-decoration: underline;
     color: gold;
 }
 
-#nav li a:visited{
+.nav li a:visited{
     text-decoration: none;
 }
 
@@ -109,16 +109,20 @@ td{
     background-color: #8a52a8;
 }
 
+div{
+    font-size: 20px;
+}
+
 /*
 Picture Styling
 */
-#titleImg{
+.titleImg{
     float: left;
     margin-right: 10px;
     padding: -10px 0;
 }
 
-#profile{
+.profile{
     float: left;
     width: 250px;
     padding: 0;
@@ -140,9 +144,4 @@ Picture Styling
     margin-left: 50px;
     width: 800px;
     padding: 0;
-}
-
-
-div{
-    font-size: 20px;
 }
