@@ -88,6 +88,7 @@ h1{
 table{
     margin: 10px 5px 10px 0;
     float: left;
+    background-color: #8a52a8;
 }
 table, th, td{
     border: 1px solid #000;
@@ -98,6 +99,10 @@ th,td{
 }
 td{
     text-align: center;
+    background-color: #9a64b7;
+}
+#totals td{
+    background-color: #8a52a8;
 }
 
 /*
