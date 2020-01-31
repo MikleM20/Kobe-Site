@@ -80,10 +80,24 @@ h1{
     text-decoration: underline;
 }
 
+table{
+    
+}
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+}
+td{
+    text-align: center;
+}
+
 /*
 Picture Styling
 */
-#lakers{
+#titleImg{
     float: left;
     margin-right: 10px;
     padding: -10px 0;
