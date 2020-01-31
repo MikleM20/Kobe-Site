@@ -66,6 +66,7 @@ body{
     margin-top: 50px;
 }
 
+
 #careerLink{
     color: #000;
 }
@@ -73,6 +74,7 @@ body{
 #careerLink:hover{
     color: #fff;
 }
+
 #careerLink:visited{
     color: #000;
 }
