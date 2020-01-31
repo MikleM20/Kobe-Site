@@ -66,16 +66,19 @@ body{
     margin-top: 50px;
 }
 
-
-#careerLink{
-    color: #000;
-}
-
-#careerLink:hover{
+#early a:link, a:hover{
     color: #fff;
 }
 
-#careerLink:visited{
+li{
+    margin: 6px;
+}
+
+ul{
+    margin-left: 50px;
+}
+
+#early a:link, a:visited{
     color: #000;
 }
 
@@ -85,14 +88,16 @@ h1{
 }
 
 table{
-    
+    margin: 5px;
+    margin-top: 10px;
+    float: left;
 }
 table, th, td{
     border: 1px solid #000;
     border-collapse: collapse;
 }
 th,td{
-    padding: 5px;
+    padding: 1px 3px;
 }
 td{
     text-align: center;
@@ -111,7 +116,7 @@ Picture Styling
     float: left;
     width: 250px;
     padding: 0;
-    margin-right:20px;
+    margin-right:30px;
     margin-top: 10px;
 }
 
@@ -122,6 +127,7 @@ Picture Styling
     margin-left: 20px;
     margin-top: 10px;
 }
+
 
 #crash{
     margin: 25px 0;
