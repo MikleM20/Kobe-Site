@@ -85,6 +85,10 @@ h1{
     text-decoration: underline;
 }
 
+#nbaCareer{
+    margin-top: 20px;
+}
+
 table{
     margin: 10px 5px 10px 0;
     float: left;
