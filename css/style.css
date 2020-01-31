@@ -41,8 +41,6 @@ body{
     color: #fff;
     font-size: 25px;
     position: relative;
-    top:5px;
-
 }
 
 #nav li a:hover{
@@ -88,8 +86,7 @@ h1{
 }
 
 table{
-    margin: 5px;
-    margin-top: 10px;
+    margin: 10px 5px 10px 0;
     float: left;
 }
 table, th, td{
@@ -97,7 +94,7 @@ table, th, td{
     border-collapse: collapse;
 }
 th,td{
-    padding: 1px 3px;
+    padding: 1px 1px;
 }
 td{
     text-align: center;
