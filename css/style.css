@@ -66,12 +66,14 @@ body{
     margin-top: 50px;
 }
 
-#early a:link, a:hover{
-    color: #fff;
+#careerLink{
+    color: #000;
 }
 
-
-#early a:link, a:visited{
+#careerLink:hover{
+    color: #fff;
+}
+#careerLink:visited{
     color: #000;
 }
 
