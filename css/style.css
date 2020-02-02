@@ -6,15 +6,35 @@ body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+#dark{
+    background-color: #000000;
+    /*background-color: red;*/
+    /* Remove Gap Above Heaader*/
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .header{
     background-color: #4c1569;
-    /*background-color: black;*/
     color: #fff;
     padding: 20px 0;
     border-bottom:3px solid white;
     font-family: initial;
     position: relative;
 }
+
+#darkHeader{
+    background-color: #706969;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom:3px solid white;
+    font-family: initial;
+    position: relative;
+}
+
 .container{
     margin: 0 auto;
     width: 900px;
@@ -46,6 +66,10 @@ body{
 .nav li a:hover{
     text-decoration: underline;
     color: gold;
+}
+
+#darkHeader .nav li a:hover{
+    color: #000;
 }
 
 .nav li a:visited{
@@ -142,6 +166,10 @@ Picture Styling
 #crash{
     margin: 25px 0;
     margin-left: 50px;
-    width: 800px;
     padding: 0;
+}
+#academy{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
 }
